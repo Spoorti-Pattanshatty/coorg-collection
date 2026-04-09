@@ -9,14 +9,66 @@ import flavor from "../assets/flavor.webp";
 import papad from "../assets/papad.webp";
 
 const products = [
-  { name: "Desi Ghee", price: "₹650", oldPrice: "₹800", img: ghee, badge: "BESTSELLER" },
-  { name: "Coconut Oil", price: "₹300", oldPrice: "₹400", img: oil, badge: "SALE" },
-  { name: "Raw Honey", price: "₹400", img: honey, badge: "PURE" },
-  { name: "Organic Spices", price: "₹250", oldPrice: "₹350", img: spices, badge: "SALE" },
-  { name: "Coorg Coffee", price: "₹500", img: coffee, badge: "POPULAR" },
-  { name: "Dark Chocolate", price: "₹350", oldPrice: "₹450", img: chocolate, badge: "NEW" },
-  { name: "Flavor Coffee", price: "₹450",  img: flavor, badge: "NEW" },
-  { name: "Palak Papad", price: "₹200", img: papad, badge: "NEW" },
+  {
+    name: "Desi Ghee",
+    price: "₹650",
+    oldPrice: "₹800",
+    img: ghee,
+    badge: "BESTSELLER",
+    desc: "Pure A2 cow ghee made using traditional bilona method."
+  },
+  {
+    name: "Coconut Oil",
+    price: "₹300",
+    oldPrice: "₹400",
+    img: oil,
+    badge: "SALE",
+    desc: "Cold-pressed coconut oil ideal for cooking and skincare."
+  },
+  {
+    name: "Raw Honey",
+    price: "₹400",
+    img: honey,
+    badge: "PURE",
+    desc: "Unprocessed natural honey rich in nutrients and antioxidants."
+  },
+  {
+    name: "Organic Spices",
+    price: "₹250",
+    oldPrice: "₹350",
+    img: spices,
+    badge: "SALE",
+    desc: "Freshly sourced aromatic spices from Coorg farms."
+  },
+  {
+    name: "Coorg Coffee",
+    price: "₹500",
+    img: coffee,
+    badge: "POPULAR",
+    desc: "Rich and bold coffee with authentic Coorg flavor."
+  },
+  {
+    name: "Dark Chocolate",
+    price: "₹350",
+    oldPrice: "₹450",
+    img: chocolate,
+    badge: "NEW",
+    desc: "Handcrafted dark chocolate with high cocoa content."
+  },
+  {
+    name: "Flavored Coffee",
+    price: "₹450",
+    img: flavor,
+    badge: "NEW",
+    desc: "Infused coffee blends with unique natural flavors."
+  },
+  {
+    name: "Palak Papad",
+    price: "₹200",
+    img: papad,
+    badge: "NEW",
+    desc: "Crispy spinach papad made with traditional spices."
+  }
 ];
 
 export default function Products() {

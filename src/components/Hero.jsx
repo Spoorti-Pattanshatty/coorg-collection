@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Images
+
 import img1 from "../assets/slider1.webp";
 import img2 from "../assets/slider2.webp";
 import img3 from "../assets/slider3.webp";
@@ -11,7 +12,7 @@ export default function Hero() {
   const images = [img1, img2, img3, img4];
   const [current, setCurrent] = useState(0);
 
-  // Auto Slide
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) =>
@@ -33,7 +34,7 @@ export default function Hero() {
   return (
     <section className="w-full">
 
-      {/* 🎞️ SLIDER ONLY */}
+      
       <div className="relative h-[70vh] overflow-hidden">
 
         <div
@@ -87,9 +88,12 @@ export default function Hero() {
           from nature — fresh, healthy, and full of flavor.
         </p>
 
-        <button className="mt-6 bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition">
-          View All
-        </button>
+
+      <Link to="/products">
+      <button className="bg-green-600 text-white px-6 py-2 rounded-lg">
+        View All
+      </button>
+      </Link>
       </div>
 
     </section>

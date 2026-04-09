@@ -36,6 +36,10 @@ export default function ProductCard({ product }) {
         {product.name}
       </h3>
 
+      <p className="text-gray-500 text-sm mt-1">
+        {product.desc}
+      </p>
+
       <div className="mt-2">
         {product.oldPrice && (
           <p className="text-gray-400 line-through text-sm">
