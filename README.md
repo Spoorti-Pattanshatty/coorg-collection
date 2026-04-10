@@ -45,7 +45,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```
-git clone (https://github.com/Spoorti-Pattanshatty/coorg-collection.git)
+git clone https://github.com/Spoorti-Pattanshatty/coorg-collection.git
 cd coorg-collection
 ```
 
@@ -65,7 +65,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 coorg-collection-blush.vercel.app
+👉 https://coorg-collection-blush.vercel.app/
 
 
 
