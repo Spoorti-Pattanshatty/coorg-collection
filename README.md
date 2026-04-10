@@ -65,7 +65,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 (Add your deployed link here)
+👉 coorg-collection-blush.vercel.app
 
 
 
