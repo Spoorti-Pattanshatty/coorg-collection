@@ -30,7 +30,7 @@ export default function ProductCard({ product }) {
        alt={product.name}
        className="h-64 w-full object-contain bg-gray-50 p-4 transition duration-300 hover:scale-105"
       />
-</div>
+    </div>
 
       <h3 className="mt-4 text-lg font-semibold">
         {product.name}

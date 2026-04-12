@@ -69,7 +69,7 @@ export default function Footer() {
   >
     <FaInstagram />
   </a>
-</div>
+  </div>
         </div>
 
       </div>
